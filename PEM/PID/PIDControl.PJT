@@ -1,0 +1,40 @@
+[PROJECT]
+Target=PIDControl.HEX
+Development_Mode=2
+Processor=0x887F
+ToolSuite=CCS
+Processor_Text=PIC16F887
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=C:\Users\Sergio\Documents\Proteus\PID\PIDControl.c
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+
+[PIDControl.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=PIDCON~1.C
+
+[Windows]
+0=0000 PIDCON~1.C 0 0 796 451 3 0
+
+[Opened Files]
+1=C:\Users\Sergio\Documents\Proteus\PID\PIDControl.c
+2=
+[Units]
+Count=1
+1=PIDControl.c (main)
+Link=0

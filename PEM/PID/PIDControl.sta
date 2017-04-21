@@ -1,0 +1,72 @@
+
+ROM used: 3343 (41%)
+          3357 (41%) including unused fragments
+
+          5 Average locations per line
+          28 Average locations per statement
+
+RAM used: 119 (32%) at main() level
+          162 (44%) worst case
+
+Stack used: 7 worst case (out of 6 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  138    53  44  PIDControl.c
+  410     0   0  ..\..\..\..\..\Program Files (x86)\PICC\devices\16F887.h
+  162    68  56  ..\..\..\..\..\Program Files (x86)\PICC\drivers\lcd420.c
+----- -----
+  710   121 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   1   1             @delay_ms1
+0      8   0   0             @const54
+ Inline        3   463  4.3  lcd_read_byte
+0     14   0   1   134  2.2  lcd_send_nibble
+0     74   2   3   317  4.3  lcd_send_byte
+0     58   2   2   422  4.7  lcd_init
+0     35   1   3   321  5.5  lcd_gotoxy
+0      8   0   0             @goto10090
+0     54   2   1   308  5.0  lcd_putc
+0    384  11   8   565  6.1  RELOJ
+0    326  10  16             @ADDFF
+0    119   4  13             @MULFF
+0     65   2  10             @FLT
+0     35   1   4             @SFTOI
+1   1309  39  12  1469  4.8  MAIN
+0      6   0   0             @const126
+0    204   6  14             @DIVFF
+0     33   1   2             @ITOF
+0     13   0   0             @const132
+0     35   1   5             @FTOSD
+0     68   2  13             @DIV3232
+0    228   7  13             @PRINTF_L32D_76FPFPF
+0     22   1   0             @const141
+0     19   1   0             @const142
+0     20   1   0             @const143
+0    134   4   9             @PRINTF_LD_76
+
+Program metrics:
+    Functions               8
+    Statements              121
+    Comments                184
+    Volume (V)              5934
+    Difficilty (D)          35.1
+    Effort to implement (E) 208433
+    Time to implement (T)   3 hours, 13 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   14
+    Maintainability (MI)    138
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00032    47  0  
+00033-007FF  1983  14  
+00800-00FFF  1309  739  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

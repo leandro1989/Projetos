@@ -1,0 +1,10 @@
+>>> Warning 208 "PIDControl.c" Line 21(1,6): Function not void and does not return a value  RELOJ
+>>> Warning 203 "PIDControl.c" Line 119(1,1): Condition always TRUE
+>>> Warning 216 "PIDControl.c" Line 139(0,1): Interrupts disabled during call to prevent re-entrancy:  (@MULFF)
+>>> Warning 216 "PIDControl.c" Line 139(0,1): Interrupts disabled during call to prevent re-entrancy:  (@ADDFF)
+>>> Warning 202 "PIDControl.c" Line 16(7,11): Variable never used:   TsMA
+>>> Warning 202 "PIDControl.c" Line 16(12,14): Variable never used:   Wn
+>>> Warning 202 "PIDControl.c" Line 16(15,17): Variable never used:   P1
+>>> Warning 202 "PIDControl.c" Line 16(18,20): Variable never used:   P2
+      Memory usage:   ROM=41%      RAM=32% - 44%
+      0 Errors,  8 Warnings.
